@@ -1,0 +1,141 @@
+html {
+  box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+input {
+  line-height: normal;
+}
+label,
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+* {
+  -webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+body {
+	font-family: segoe ui, verdana, arial, sans-serif;
+	font-size: 1em;
+}
+
+h1 {
+  text-shadow: 1px 1px #999;
+}
+
+.wrap {
+	width: 100%;
+	max-width: 600px;
+	margin: 0px auto;
+}
+
+.contact ul {
+	width: 100%;
+	list-style-type: none;
+	list-style-position: outside;
+	margin: 0px;
+	padding: 0px;
+}
+
+.contact_form li{
+	position: relative;
+} 
+
+.contact label {
+	width: 100%;
+	display: inline-block;
+	float: left;
+	padding: 3px;
+}
+
+.contact input {
+	height: 40px; 
+	width: 100%;
+	padding: 5px 8px;
+	margin-bottom: 20px;
+}
+
+.contact textarea {
+	padding:8px; 
+	width: 100%;
+}
+
+.contact input, 
+.contact textarea { 
+  font-family: segoe ui, verdana, arial, sans-serif;
+	border: 1px solid #aaa;
+	box-shadow: 0px 0px 3px #ccc, 0 10px 15px #999 inset;
+	border-radius: 2px;
+	padding-right: 30px;
+}
+
+.contact input:focus, 
+.contact textarea:focus {
+	background: #fff; 
+	border: 1px solid #555; 
+	box-shadow: 0 0 10px #aaa; 
+}
+
+.contact input:required:valid, 
+.contact textarea:required:valid {
+  box-shadow: 0px 0px 3px #5cd053, 0 10px 15px #999 inset;
+	border-color: green;
+}
+
+.contact input:focus:invalid, 
+.contact textarea:focus:invalid {
+	box-shadow: 0 0 10px #d45252;
+	border-color: red;
+}
+
+button {
+  font-family: segoe ui, verdana, arial, sans-serif;
+  font-size: 1.1em;
+	display: inline-block;
+	position: relative;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+  width: 100%;
+  max-width: 200px;
+	color: #fff;
+  border: 0;
+	background: #2266ee;
+
+ }
+
+button:hover {
+	background-color: #333;
+}
+
+button:active {
+	box-shadow: 0 0 10px 5px #000 inset; 
+}
+
+.float-right { float: right; }
