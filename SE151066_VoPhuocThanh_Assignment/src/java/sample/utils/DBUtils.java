@@ -24,6 +24,7 @@ public class DBUtils {
          String url="jdbc:sqlserver://localhost:1433;databaseName=ManagementVegetable";
          conn=DriverManager.getConnection(url,"sa","12");
          return conn;
+         
     }
     //Cach 2
     public static Connection getConnection1() throws NamingException, SQLException{
